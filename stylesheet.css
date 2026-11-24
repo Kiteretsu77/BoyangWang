@@ -329,3 +329,34 @@ a:active {
 .pub-links a.pl-demo:hover {
   background: #ffc400;
 }
+
+/* author line under each publication title: smaller than the title, with a gap below it */
+.publications-table .authors {
+  margin-top: 7px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.publications-table .authors a,
+.publications-table .authors strong {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.publications-table .authors a {
+  color: #3a6ea5;
+}
+
+.publications-table .authors a[href]:hover {
+  color: #f09228;
+}
+
+.publications-table .authors strong {
+  color: #111;
+}
+
+/* the old line break after the author list would leave an empty line */
+.publications-table .authors + br {
+  display: none;
+}

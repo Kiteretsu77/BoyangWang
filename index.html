@@ -9,7 +9,7 @@
   <meta name="author" content="Boyang Wang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261002">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261123b">
   <!-- <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"
     > -->
@@ -96,6 +96,11 @@
               <tr>
                 <td style="padding:0px 10px;width:100%;vertical-align:middle">
                   <p>
+                    <li style="line-height:125%">
+                      11/2026:
+                      &#x1F389;
+                      On-Policy Codec Distillation for Efficient All-in-One Video Generation is released.
+                    </li>
                     <li style="line-height:125%">
                       10/2026:
                       &#x1F389;
@@ -198,6 +203,7 @@
                   <heading>Selected Publications</heading>
                   <span style="margin-left:12px;font-size:14px;color:#888;">
                     <sup>*</sup>Equal contribution &nbsp;·&nbsp;
+                    <sup>&dagger;</sup>Equal advising &nbsp;·&nbsp;
                     <a href="https://scholar.google.com/citations?user=w7o4OYAAAAAJ&hl=en&oi=ao" style="font-size:14px;">Full list on Google Scholar</a>
                   </span>
                 </td>
@@ -212,7 +218,54 @@
             
             <tbody>
 
-              
+
+              <tr>
+                <td style="width:32%;" align="center">
+                  <video
+                    width="240"
+                    height="135"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    style="border-style: none; padding-bottom: 25px; object-fit: cover;"
+                  >
+                    <source src="figs/CodecOPSD.mp4" type="video/mp4">
+                  </video>
+                </td>
+
+                <td width="100%" valign="middle">
+                  <!-- heading -->
+                  <papertitle>
+                    On-Policy Codec Distillation for Efficient All-in-One Video Generation
+                  </papertitle>
+
+                  <!-- authors -->
+                  <div class="authors">
+                  <strong>Boyang Wang</strong>,
+                  <a href="https://www.kmatzen.com/">Kevin Blackburn-Matzen</a>,
+                  <a href="https://oindrilasaha.github.io/">Oindrila Saha</a>,
+                  <a href="http://mgadelha.me/">Matheus Gadelha<sup>&dagger;</sup></a>,
+                  <a href="https://www.cs.virginia.edu/~zc3bp/">Zezhou Cheng<sup>&dagger;</sup></a>
+                  </div>
+
+                  <!-- links -->
+                  <!-- Paper and Online Demo are placeholders: replace href="#" with the arXiv / HF Space links once public -->
+                  <div class="pub-links">
+                    <a class="pl pl-paper" href="#" onclick="return false;" title="Coming soon">Paper</a>
+                    <a class="pl pl-web" href="https://kiteretsu77.github.io/CodecOPSD_website/">Website</a>
+                    <a class="pl pl-code" href="https://github.com/Kiteretsu77/CodecOPSD" data-repo="Kiteretsu77/CodecOPSD">GitHub</a>
+                    <a class="pl pl-demo" href="#" onclick="return false;" title="Coming soon">Online Demo</a>
+                  </div>
+
+                  <p>
+                    Codec pruning drops redundant condition tokens in video generation, for up to 8.4&times; faster denoising.
+                  </p>
+                </td>
+              </tr>
+
+
+
               <tr>
                 <td style="width:32%;" align="center">
                   <video
@@ -235,7 +288,7 @@
                   </papertitle>
 
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <a href="https://scholar.google.com/citations?user=taEqnmcAAAAJ&hl=en">Shengxiang Ji</a>,
                   <strong>Boyang Wang</strong>,
                   <a href="https://xxuhaiyang.github.io/">Haiyang Xu</a>,
@@ -248,6 +301,7 @@
                   <a href="https://faculty.stat.ucla.edu/jxie/">Jianwen Xie</a>,
                   <a href="https://www.cs.virginia.edu/~zc3bp/">Zezhou Cheng</a>,
                   <a href="https://pages.ucsd.edu/~ztu/">Zhuowen Tu</a>
+                  </div>
 
                   <!-- conference & date -->
                   <br>
@@ -293,12 +347,13 @@
                   </papertitle>
 
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang</strong>,
-                  Guangyi Xu,
+                  Guangyi&nbsp;Xu,
                   <a href="https://people.umass.edu/zhipengtang/">Zhipeng Tang</a>,
-                  Jiahui Zhang,
+                  Jiahui&nbsp;Zhang,
                   <a href="https://www.cs.virginia.edu/~zc3bp/">Zezhou Cheng</a>
+                  </div>
 
                   <!-- conference & date -->
                   <br>
@@ -317,7 +372,7 @@
                     State-of-the-art shot boundary detection that is more sensitive and more informative.
                   </p>
                   <p style="color:#d0021b;margin-top:6px">
-                    25k+ model downloads on Hugging Face &nbsp;·&nbsp; 340+ GitHub stars
+                    30k+ model downloads on Hugging Face &nbsp;·&nbsp; 350+ GitHub stars
                     <br>
                     Ported to ComfyUI and Apple MLX by the community
                   </p>
@@ -337,7 +392,7 @@
                   <papertitle> RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang<sup>*</sup></strong>,
                   <a href="https://haoranzhangumich.github.io/">Haoran Zhang<sup>*</sup></a>,
                   <a href="https://hishujie.github.io/">Shujie Zhang<sup>*</sup></a>,
@@ -349,6 +404,7 @@
                   <a href="https://zeng-jia.github.io/">Jia Zeng</a>,
                   <a href="https://sheldontsui.github.io/">Xudong Xu</a>,
                   <a href="https://oceanpang.github.io/">Jiangmiao Pang</a>
+                  </div>
 
 
                   <!-- conference & date -->
@@ -382,11 +438,12 @@
                   <papertitle> Frame In-N-Out: Unbounded Controllable Image-to-Video Generation
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang</strong>,
                   <a href="https://xuweiyichen.github.io/">Xuweiyi Chen</a>,
                   <a href="http://mgadelha.me/">Matheus Gadelha</a>,
                   <a href="https://www.cs.virginia.edu/~zc3bp/">Zezhou Cheng</a>
+                  </div>
                   <!-- conference & date -->
                   <br>
                   NeurIPS 2025
@@ -419,11 +476,12 @@
                   <papertitle>Sparse Image Sets Restoration with Multi-View Diffusion Model
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <a href="https://myc634.github.io/yuchengmao/">Yucheng Mao<sup>*</sup></a>,
                   <strong>Boyang Wang<sup>*</sup></strong>,
                   <a href="https://nileshkulkarni.github.io">Nilesh Kulkarni</a>,
                   <a href="https://jjparkcv.github.io">Jeong Joon Park</a>
+                  </div>
                   <br>
                     CVPR 2025
                   <br>
@@ -447,7 +505,7 @@
                   <papertitle>This&That: Language-Gesture Controlled Video Generation for Robot Planning
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang</strong>,
                   <a href="https://www.linkedin.com/in/niksridhar/">Nikhil Sridhar</a>,
                   <a href="https://cfeng16.github.io/">Chao Feng</a>,
@@ -455,6 +513,7 @@
                   <a href="https://fishbotics.com/">Adam Fishman</a>,
                   <a href="https://www.mmintlab.com/people/nima-fazeli/">Nima Fazeli</a>,
                   <a href="https://jjparkcv.github.io/">Jeong Joon Park</a>
+                  </div>
                   <!-- conference & date -->
                   <br>
                   ICRA 2025
@@ -480,12 +539,13 @@
                   <papertitle>APISR: Anime Production Inspired Real-World Anime Super-Resolution
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang</strong>,
                   <a href="https://fredfyyang.github.io/">Fengyu Yang</a>,
                   <a href="https://xihangyu630.github.io/">Xihang Yu</a>,
                   <a >Chao Zhang</a>,
                   <a >Hanbin Zhao</a>
+                  </div>
                   <!-- conference & date -->
                   <br>
                   CVPR 2024
@@ -515,11 +575,12 @@
                   <papertitle>VCISR: Blind Single Image Super-Resolution with Video Compression Synthetic Data
                   </papertitle>
                   <!-- authors -->
-                  <br>
+                  <div class="authors">
                   <strong>Boyang Wang<sup>*</sup></strong>,
                   <a >Bowen Liu<sup>*</sup></a>,
                   <a >Shiyu Liu<sup>*</sup></a>,
                   <a href="https://fredfyyang.github.io/">Fengyu Yang</a>
+                  </div>
                   <!-- conference & date -->
                   <br>
                   WACV 2024
